@@ -6,6 +6,15 @@ module.exports = defineConfig({
   admin: {
     disable: process.env.DISABLE_MEDUSA_ADMIN === "true",
   },
+  plugins: [
+    {
+      resolve: "@medusajs/admin",
+      /** @type {import('@medusajs/admin').PluginOptions} */
+      options: {
+        path: "app",
+      },
+    },
+  ],
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL || "postgres",
     redisUrl: process.env.REDIS_URL,
