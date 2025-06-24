@@ -10,7 +10,7 @@
 //   serviceName: 'my-medusa-project',
 // })
 
-export function register() {
+export const register = () => {
 //   registerOtel({
 //     serviceName: 'medusajs',
 //     // pass exporter
