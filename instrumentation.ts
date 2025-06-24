@@ -10,15 +10,6 @@
 //   serviceName: 'my-medusa-project',
 // })
 
-export const register = () => {
-//   registerOtel({
-//     serviceName: 'medusajs',
-//     // pass exporter
-//     exporter,
-//     instrument: {
-//       http: true,
-//       workflows: true,
-//       query: true
-//     },
-//   })
+export function register() {
+    // No instrumentation logic neede
 }
