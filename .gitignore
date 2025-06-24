@@ -2,7 +2,9 @@
 .env
 .DS_Store
 /uploads
-/node_modules
+/node_modules/*
+!/node_modules/@medusajs/admin
+!/node_modules/@medusajs/admin/**/*
 yarn-error.log
 
 .idea
