@@ -10,7 +10,7 @@
 //   serviceName: 'my-medusa-project',
 // })
 
-// export function register() {
+export function register() {
 //   registerOtel({
 //     serviceName: 'medusajs',
 //     // pass exporter
@@ -21,4 +21,4 @@
 //       query: true
 //     },
 //   })
-// }
+}
