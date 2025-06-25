@@ -23,6 +23,7 @@
     "deploy": "npm run build && npm run start"
   },
   "dependencies": {
+    "@medusajs/admin-bundler": "^2.8.4",
     "@medusajs/admin-sdk": "2.8.4",
     "@medusajs/cli": "2.8.4",
     "@medusajs/framework": "2.8.4",
